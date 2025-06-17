@@ -1,0 +1,17 @@
+input[type="text"]{
+    border: 2px solid red;
+}
+
+.parent{
+    border: 2px solid green;
+    padding: 20px;
+    margin: 20xp;
+    color: blue;
+    box-sizing:content-box
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}

@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header class="container">
         <h1>By Blog</h1>
         <nav>
             <ul>
@@ -17,7 +18,7 @@
         </nav>
     </header>
 
-    <main>
+    <main  class="container">
         <article>
             <header>
                 <h2>Main Data</h2>
@@ -38,5 +39,31 @@
             </ul>
         </aside>
     </main>
+
+
+    <h2>Registration Form</h2>
+    <form action="/submit" method="post"  class="container">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required minlength="3" maxlength="15"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required minlength="6"><br><br>
+
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" min="18" max="100" required><br><br>
+
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{8}" placeholder="مثال: 12345678" required><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+
+    <div class="parent container">
+        <h1>salah ben cheikh</h1>
+        <p class="child">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit natus totam eos odio quis quaerat ipsa pariatur delectus. Tempora rem unde temporibus magnam nihil tenetur dolorum sapiente laudantium ullam neque.</p>
+    </div>
 </body>
 </html>
